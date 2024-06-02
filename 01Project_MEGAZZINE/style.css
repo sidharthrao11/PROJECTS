@@ -1,0 +1,362 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(224, 223, 223);
+}
+.container{
+    border: 1px solid black;
+}
+.headerdesign{
+    background-color: black;
+    height: 12px;
+    width: 100%;
+}
+.headerdesignsecond{
+    background-color: white;
+    height: 8px;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    background-color: rgb(79, 79, 79);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftpart{
+    display: flex;
+    flex-direction: row;
+    font-size: 55px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titleone{
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.titletwo{
+    color:dodgerblue;
+    margin-top: 10px;
+}
+.rightpart{
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.logindetails{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 160px;
+}
+.signin{
+    text-decoration: none;
+    color: white;
+   
+}
+.signup{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.telephone{
+    width: 20px;
+    height: 20px;
+}
+.label{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inp{
+    width: 250px;
+    background-color: gray;
+    border: none;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 25%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.navbaricons{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sixty{
+    width: 80%;
+}
+.cat-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.c-one{
+    border: 2px solid black;
+    width: 20%;
+    background-color: rgb(51, 96, 98);
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:  18px; ;
+}
+.art{
+color: aqua;
+}
+.content-first{
+    display: flex;
+    flex-direction: row;
+}
+.cont-first{
+display: flex;
+flex-direction: row;
+}
+.blackcat{
+    width: 80px;
+    height: 80px;
+    border: 2px solid gray;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.text-one{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.para-one{
+    color: rgb(51, 96, 98);
+    font-size: 17px;
+}
+.cont-second{
+    display: flex;
+    flex-direction: row;
+}
+.gentalman{
+    width: 80px;
+    height: 80px;
+    border: 2px solid gray;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.content-second{
+    display: flex;
+    flex-direction: row;
+}
+.boxone{
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.boxtwo{
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 10px;
+}
+.boxthree{
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 10px;
+
+}
+.hundred{
+    display: flex;
+    flex-direction: row;
+}
+.fotty{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dropdown-first{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.partoneofcategories{
+    background-color:rgb(51, 96, 98);
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+.options{
+    background-color: white;
+    padding: 10px;
+}
+.dropdown-second{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.dropdown-third{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.ad-one{
+    border: 2px solid yellow;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.ad-two{
+    border: 2px solid yellow;
+    width: 250px;
+    height: 400px;
+    margin-left: 50px;
+}
+.footer-one{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(79, 79, 79);
+    margin-top: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.chitr{
+    width: 20px;
+    height: 20px;
+}
+.chitr-two{
+    width: 20px;
+    height: 20px;
+    margin-left: 550px;
+}
+.footer-two{
+    background-color: rgb(79, 79, 79);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+@media (max-width : 890px){
+       .ad-one{
+        width: 100px;
+       }
+       .ad-two{
+        width: 100px;
+       }
+}
+@media (max-width : 750px){
+        .c-one{
+            height: 25px;
+            width: 150px;
+        }
+        .pp{
+            font-size: 10px;
+            margin-top: 10px;
+        }
+        .chitr{
+            margin-top: 10px;
+        }
+        .lc{
+            font-size: 10px;
+            margin-top: 10px;
+        }
+        .chitr-two{
+            margin-top: 10px;
+        }
+}
+@media (max-width:700px){
+    .searchbar{
+       font-size: 10px;
+       margin-left: 150px;
+    }
+    .inp{
+        width: 150px;
+    }
+
+}
+@media (max-width:691px){
+    .ad-one{
+        width: 100px;
+        margin-right: 250px;
+       }
+       .ad-two{
+        width: 100px;
+        margin-right: 250px;
+       }
+       .searchbar{
+        font-size: 10px;
+        margin-left: 160px;
+     }
+     .label{
+        font-size: 8px;
+     }
+     .inp{
+        width: 80px;
+     }
+     .telephone{
+        display: none;
+     }
+
+}
+@media (max-width:680px){
+    .logindetails{
+        width: 50px;
+    }
+    .rightpart{
+        margin-left: 80px;
+    }
+    .ad-one{
+        display: none;
+    }
+    .ad-two{
+        display: none;
+    }
+    .lc{
+        display: none;
+    }
+}
+@media (max-width:661px)
+{
+ .sixty{
+    width: 400px;
+ }   
+ .rightpart{
+    margin-left: 10px;
+}
+.chitr-two{
+    display: none;
+}
+}
+@media(max-width:545px)
+{
+  .dropdown-first{
+    width: 120px;
+  }
+  .dropdown-second{
+    width: 120px;
+  }
+  .dropdown-third{
+    width: 120px;
+  }
+}
+@media(max-width:540px){
+    .logindetails{
+        display: none;
+    }
+    body{
+        font-style: italic;
+    }
+    .dropdown-first{
+        display: none;
+      }
+      .dropdown-second{
+        display: none;
+      }
+      .dropdown-third{
+        display: none;
+      }
+      .label{
+        display: none;
+      }
+      .inp{
+        display: none;
+      }
+}
